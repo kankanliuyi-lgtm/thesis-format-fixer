@@ -1,0 +1,65 @@
+{
+  "document": {
+    "require_toc": true,
+    "margins_twips": {
+      "top": 1440,
+      "right": 1440,
+      "bottom": 1440,
+      "left": 1800,
+      "header": 720,
+      "footer": 720,
+      "gutter": 0
+    }
+  },
+  "styles": {
+    "Normal": {
+      "font_ascii": "Times New Roman",
+      "font_east_asia": "宋体",
+      "size_half_points": 21,
+      "alignment": "both",
+      "line": 360,
+      "line_rule": "auto",
+      "after": 0,
+      "first_line": 420
+    },
+    "Heading1": {
+      "font_ascii": "Times New Roman",
+      "font_east_asia": "黑体",
+      "size_half_points": 32,
+      "alignment": "center",
+      "before": 240,
+      "after": 240,
+      "bold": true
+    },
+    "Heading2": {
+      "font_ascii": "Times New Roman",
+      "font_east_asia": "黑体",
+      "size_half_points": 28,
+      "before": 180,
+      "after": 120,
+      "bold": true
+    },
+    "Heading3": {
+      "font_ascii": "Times New Roman",
+      "font_east_asia": "黑体",
+      "size_half_points": 24,
+      "before": 120,
+      "after": 60,
+      "bold": true
+    },
+    "Caption": {
+      "font_ascii": "Times New Roman",
+      "font_east_asia": "宋体",
+      "size_half_points": 21,
+      "alignment": "center"
+    }
+  },
+  "manual_review": [
+    "Compare the result against the university's official thesis specification.",
+    "Verify cover page, declaration pages, Chinese abstract, English abstract, and keywords manually.",
+    "Update the table of contents field in Word after opening the formatted copy.",
+    "Verify page-number formats and section breaks for front matter and main text.",
+    "Verify citations and bibliography against the required citation standard.",
+    "Review equations, footnotes, appendices, and any intentionally custom formatting."
+  ]
+}

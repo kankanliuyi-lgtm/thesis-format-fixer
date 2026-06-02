@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thesis Format Fixer"
+  short_description: "Audit and normalize thesis DOCX formatting"
+  default_prompt: "Use $thesis-format-fixer to audit my thesis DOCX and create a formatted copy with a review report."

@@ -1,0 +1,6 @@
+*.docx
+*.zip
+__pycache__/
+.DS_Store
+work/
+outputs/
