@@ -16,6 +16,78 @@ English: A Codex Skill for auditing and normalizing thesis DOCX formatting.
 - 输出 Markdown 格式检查报告和人工复核清单。
 - 使用 Python 3 标准库运行，不依赖第三方包。
 
+## 安装到 Agent
+
+这个仓库的根目录是开源项目，真正的 Skill 文件夹是里面的 `thesis-format-fixer/`。
+
+安装后目录结构应该长这样：
+
+```text
+skills/
+└── thesis-format-fixer/
+    ├── SKILL.md
+    ├── scripts/
+    └── references/
+```
+
+### 安装到 Codex
+
+```bash
+git clone https://github.com/kankanliuyi-lgtm/thesis-format-fixer.git
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills/thesis-format-fixer"
+cp -R thesis-format-fixer/thesis-format-fixer/. "${CODEX_HOME:-$HOME/.codex}/skills/thesis-format-fixer/"
+```
+
+重启 Codex，或开启一个新会话后即可使用。你可以这样触发：
+
+```text
+Use $thesis-format-fixer to audit my thesis DOCX and create a formatted copy with a review report.
+```
+
+中文也可以：
+
+```text
+用 thesis-format-fixer 检查我的毕业论文格式，并根据学校模板生成修复副本。
+```
+
+### 安装到 Claude Code
+
+个人全局安装：
+
+```bash
+git clone https://github.com/kankanliuyi-lgtm/thesis-format-fixer.git
+mkdir -p "$HOME/.claude/skills/thesis-format-fixer"
+cp -R thesis-format-fixer/thesis-format-fixer/. "$HOME/.claude/skills/thesis-format-fixer/"
+```
+
+只安装到当前项目：
+
+```bash
+git clone https://github.com/kankanliuyi-lgtm/thesis-format-fixer.git
+mkdir -p .claude/skills/thesis-format-fixer
+cp -R thesis-format-fixer/thesis-format-fixer/. .claude/skills/thesis-format-fixer/
+```
+
+然后在 Claude Code 中请求：
+
+```text
+Use $thesis-format-fixer to check and normalize this thesis DOCX.
+```
+
+### 安装到其他支持 Skill 的 Agent
+
+如果你的 Agent 支持 `SKILL.md` 约定，把仓库里的 `thesis-format-fixer/` 文件夹复制到该 Agent 的 skills 目录即可。关键是确保路径中直接包含：
+
+```text
+thesis-format-fixer/SKILL.md
+```
+
+而不是：
+
+```text
+thesis-format-fixer/thesis-format-fixer/SKILL.md
+```
+
 ## 快速开始
 
 审计一篇论文：
