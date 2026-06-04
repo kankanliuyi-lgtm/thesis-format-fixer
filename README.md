@@ -6,6 +6,8 @@ English: A Codex Skill for auditing and normalizing thesis DOCX formatting.
 
 它解决的是一个很具体、但很折磨人的问题：论文内容已经写得差不多了，却还要反复调整标题、正文、目录、页码、页边距、图表题注和学校模板格式。
 
+![Thesis Format Fixer 三步流程](assets/thesis-format-fixer-hero.svg)
+
 ## 它能做什么
 
 - 审计论文结构和 Word 样式使用情况。

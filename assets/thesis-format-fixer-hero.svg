@@ -1,0 +1,89 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F8F7F2"/>
+
+  <style>
+    .sans { font-family: "Inter", "SF Pro Display", "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }
+    .mono { font-family: "SF Mono", "JetBrains Mono", Consolas, monospace; }
+    .title { font-size: 55px; font-weight: 850; letter-spacing: -1.5px; fill: #080808; }
+    .label { font-size: 16px; font-weight: 800; letter-spacing: 1.2px; fill: #080808; }
+    .small { font-size: 15px; font-weight: 700; letter-spacing: .5px; fill: #080808; }
+    .body { font-size: 17px; font-weight: 450; fill: #141414; }
+    .card-title { font-size: 25px; font-weight: 800; fill: #080808; }
+    .card-sub { font-size: 14px; font-weight: 800; letter-spacing: .8px; fill: #080808; }
+    .num { font-size: 59px; font-weight: 900; fill: #059669; letter-spacing: -2px; }
+  </style>
+
+  <rect x="43" y="42" width="310" height="33" fill="#F5B9A2"/>
+  <text x="59" y="64" class="mono label">THESIS FORMAT FIXER · DOCX SKILL</text>
+
+  <text x="43" y="141" class="sans title">把毕业论文格式</text>
+  <text x="43" y="203" class="sans title">交给 Agent 检查和修复</text>
+  <rect x="43" y="224" width="505" height="8" fill="#059669"/>
+
+  <rect x="850" y="45" width="285" height="106" fill="#059669"/>
+  <text x="922" y="92" class="sans" font-size="31" font-weight="900" fill="white">3 STEPS</text>
+  <text x="897" y="126" class="mono" font-size="18" font-weight="800" fill="white">TEMPLATE · AUDIT · FIX</text>
+
+  <g transform="translate(43 294)">
+    <rect x="0" y="0" width="330" height="76" fill="#F5B9A2"/>
+    <text x="20" y="54" class="sans num">01</text>
+    <text x="118" y="41" class="sans card-title">读取学校模板</text>
+    <text x="119" y="63" class="mono card-sub">OFFICIAL TEMPLATE</text>
+
+    <text x="0" y="121" class="mono small">INPUT</text>
+    <text x="0" y="144" class="sans body">学校官方 .docx 模板</text>
+    <line x1="0" y1="163" x2="330" y2="163" stroke="#F1B49D" stroke-width="2"/>
+
+    <text x="0" y="191" class="mono small">METHOD</text>
+    <text x="0" y="214" class="sans body">提取样式、页边距、页码和分节规则</text>
+    <line x1="0" y1="233" x2="330" y2="233" stroke="#F1B49D" stroke-width="2"/>
+
+    <text x="0" y="261" class="mono small">OUTPUT</text>
+    <text x="0" y="284" class="sans body">生成 university-rules.json</text>
+  </g>
+
+  <path d="M409 333H455" stroke="#080808" stroke-width="4" stroke-linecap="round"/>
+  <path d="M438 315L456 333L438 351" stroke="#080808" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(493 294)">
+    <rect x="0" y="0" width="330" height="76" fill="#F5B9A2"/>
+    <text x="20" y="54" class="sans num">02</text>
+    <text x="118" y="41" class="sans card-title">审计论文格式</text>
+    <text x="119" y="63" class="mono card-sub">AUDIT DOCX</text>
+
+    <text x="0" y="121" class="mono small">INPUT</text>
+    <text x="0" y="144" class="sans body">正在写的论文初稿</text>
+    <line x1="0" y1="163" x2="330" y2="163" stroke="#F1B49D" stroke-width="2"/>
+
+    <text x="0" y="191" class="mono small">METHOD</text>
+    <text x="0" y="214" class="sans body">对比模板规则，发现格式偏差</text>
+    <line x1="0" y1="233" x2="330" y2="233" stroke="#F1B49D" stroke-width="2"/>
+
+    <text x="0" y="261" class="mono small">OUTPUT</text>
+    <text x="0" y="284" class="sans body">输出 Markdown 检查报告</text>
+  </g>
+
+  <path d="M859 333H905" stroke="#080808" stroke-width="4" stroke-linecap="round"/>
+  <path d="M888 315L906 333L888 351" stroke="#080808" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(943 294)">
+    <rect x="0" y="0" width="214" height="76" fill="#F5B9A2"/>
+    <text x="20" y="54" class="sans num">03</text>
+    <text x="118" y="32" class="sans card-title" font-size="22">生成修复</text>
+    <text x="118" y="59" class="sans card-title" font-size="22">副本</text>
+    <text x="119" y="80" class="mono card-sub">FIX COPY</text>
+
+    <text x="0" y="121" class="mono small">SAFETY</text>
+    <text x="0" y="144" class="sans body">不覆盖原论文</text>
+    <line x1="0" y1="163" x2="214" y2="163" stroke="#F1B49D" stroke-width="2"/>
+
+    <text x="0" y="191" class="mono small">METHOD</text>
+    <text x="0" y="214" class="sans body">规范样式和分节布局</text>
+    <line x1="0" y1="233" x2="214" y2="233" stroke="#F1B49D" stroke-width="2"/>
+
+    <text x="0" y="261" class="mono small">OUTPUT</text>
+    <text x="0" y="284" class="sans body">formatted.docx + 复核清单</text>
+  </g>
+
+  <text x="43" y="598" class="mono" font-size="16" font-weight="700" fill="#059669">ZERO DEPENDENCIES · KEEP ORIGINAL DOCX · HUMAN REVIEW CHECKLIST</text>
+</svg>
